@@ -1,7 +1,17 @@
 <!-- Top Animated Typing Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=1000&color=00FFF7&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Ahmed+Raza;Founder+and+CEO+of+Cybrum+Solutions;AI+%26+Python+Enthusiast;Web+Developer;Digital+Marketer;Helping+small+businesses+grow+online;Teaching+web+dev+to+beginners." alt="Typing SVG" />
+  <picture>
+    <!-- Dark mode -->
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=1000&color=00FFF7&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Ahmed+Raza;Founder+and+CEO+of+Cybrum+Solutions;AI+%26+Python+Enthusiast;Web+Developer;Digital+Marketer;Helping+small+businesses+grow+online;Teaching+web+dev+to+beginners." />
+    <!-- Light mode -->
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=1000&color=0A2540&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Ahmed+Raza;Founder+and+CEO+of+Cybrum+Solutions;AI+%26+Python+Enthusiast;Web+Developer;Digital+Marketer;Helping+small+businesses+grow+online;Teaching+web+dev+to+beginners." />
+    <!-- Fallback -->
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3500&pause=1000&color=00FFF7&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Ahmed+Raza;Founder+and+CEO+of+Cybrum+Solutions;AI+%26+Python+Enthusiast;Web+Developer;Digital+Marketer;Helping+small+businesses+grow+online;Teaching+web+dev+to+beginners." alt="Typing SVG" />
+  </picture>
 </p>
+
 
 
 <!-- Glowing Divider -->
@@ -90,26 +100,67 @@
 
 ## 💫 Connect With Me
 <p align="center">
-  <a href="https://www.linkedin.com/in/irazaahmed" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/irazaahmed" target="_blank" title="LinkedIn">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://img.shields.io/badge/LinkedIn-001220?style=for-the-badge&logo=linkedin&logoColor=00FFF7&labelColor=001220&color=001220" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </picture>
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:hafizahmedraza12345@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+
+  <!-- Email -->
+  <a href="mailto:hafizahmedraza12345@gmail.com" target="_blank" title="Email">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://img.shields.io/badge/Email-001220?style=for-the-badge&logo=gmail&logoColor=00FFF7&labelColor=001220&color=001220" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </picture>
   </a>
   &nbsp;&nbsp;
-  <a href="https://wa.me/923130221118" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/923130221118" target="_blank" title="WhatsApp">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://img.shields.io/badge/WhatsApp-001220?style=for-the-badge&logo=whatsapp&logoColor=00FFF7&labelColor=001220&color=001220" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    </picture>
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/company/cybrumsolutions" target="_blank">
-    <img src="https://img.shields.io/badge/Cybrum_Solutions-111111?style=for-the-badge&logo=vercel&logoColor=00FFF7" />
+
+  <!-- Cybrum Solutions -->
+  <a href="https://www.linkedin.com/company/cybrumsolutions" target="_blank" title="Cybrum Solutions">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://img.shields.io/badge/Cybrum_Solutions-001220?style=for-the-badge&logo=vercel&logoColor=00FFF7&labelColor=001220&color=001220" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://img.shields.io/badge/Cybrum_Solutions-111111?style=for-the-badge&logo=vercel&logoColor=00FFF7" />
+      <img src="https://img.shields.io/badge/Cybrum_Solutions-111111?style=for-the-badge&logo=vercel&logoColor=00FFF7" alt="Cybrum Solutions" />
+    </picture>
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/irazaahmed" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+
+  <!-- GitHub -->
+  <a href="https://github.com/irazaahmed" target="_blank" title="GitHub">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+        srcset="https://img.shields.io/badge/GitHub-001220?style=for-the-badge&logo=github&logoColor=00FFF7&labelColor=001220&color=001220" />
+      <source media="(prefers-color-scheme: light)"
+        srcset="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </picture>
   </a>
 </p>
+
 
 
 
