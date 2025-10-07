@@ -12,14 +12,12 @@
   </picture>
 </p>
 
-
-
 <!-- Glowing Divider -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFF7,100:0030A1&height=2&section=header" />
 </p>
 
-<!-- Profile Badges -->
+<!-- Profile Badges (theme-aware) -->
 <p align="center">
   <!-- Cybrum Solutions -->
   <a href="https://www.linkedin.com/company/cybrumsolutions" target="_blank" title="Cybrum Solutions">
@@ -44,9 +42,6 @@
       src="https://img.shields.io/badge/LinkedIn-001220?style=for-the-badge&logo=linkedin&logoColor=00FFF7&labelColor=001220&color=00FFF7" />
   </a>
 </p>
-
-
-
 ---
 
 ## ⚡ About Me
@@ -70,14 +65,30 @@
 
 ---
 
-## 🔥 GitHub Analytics
+## 🔥 GitHub Analytics (theme-aware)
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&theme=highcontrast&hide_border=true&fire=00FFF7&ring=00FFF7&currStreakLabel=00FFF7" height="160px"/>
+  <!-- Streak -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&theme=highcontrast&hide_border=true&fire=00FFF7&ring=00FFF7&currStreakLabel=00FFF7" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&theme=default&hide_border=true" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&theme=highcontrast&hide_border=true&fire=00FFF7&ring=00FFF7&currStreakLabel=00FFF7" height="160" alt="GitHub Streak"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&theme=highcontrast&hide_border=true&title_color=00FFF7&icon_color=00FFF7" height="160px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&theme=highcontrast&hide_border=true&title_color=00FFF7" height="160px"/>
+  <!-- Stats -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&theme=highcontrast&hide_border=true&title_color=00FFF7&icon_color=00FFF7" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&theme=highcontrast&hide_border=true&title_color=00FFF7&icon_color=00FFF7" height="160" alt="GitHub Stats"/>
+  </picture>
+
+  <!-- Top Langs -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&theme=highcontrast&hide_border=true&title_color=00FFF7" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&theme=highcontrast&hide_border=true&title_color=00FFF7" height="160" alt="Top Languages"/>
+  </picture>
 </p>
 
 ---
@@ -98,7 +109,7 @@
 
 ---
 
-## 💫 Connect With Me
+## 💫 Connect With Me (theme-aware)
 <p align="center">
 
   <!-- LinkedIn -->
@@ -161,15 +172,18 @@
   </a>
 </p>
 
-
-
-
 ---
 
+<!-- Bottom Typing (theme-aware) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=00FFF7&center=true&vCenter=true&width=800&lines=Code+Create+Innovate+Repeat;AI+is+not+the+future+-+it's+the+present;Let's+build+something+incredible+together" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=00FFF7&center=true&vCenter=true&width=800&lines=Code+Create+Innovate+Repeat;AI+is+not+the+future+-+it's+the+present;Let's+build+something+incredible+together" />
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=0A2540&center=true&vCenter=true&width=800&lines=Code+Create+Innovate+Repeat;AI+is+not+the+future+-+it's+the+present;Let's+build+something+incredible+together" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=00FFF7&center=true&vCenter=true&width=800&lines=Code+Create+Innovate+Repeat;AI+is+not+the+future+-+it's+the+present;Let's+build+something+incredible+together" alt="Typing SVG" />
+  </picture>
 </p>
-
 
 <!-- Neon footer -->
 <p align="center">
