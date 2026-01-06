@@ -85,18 +85,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&theme=highcontrast&hide_border=true&title_color=00FFF7&icon_color=00FFF7" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&theme=highcontrast&hide_border=true&title_color=00FFF7&icon_color=00FFF7" height="160" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&theme=highcontrast&hide_border=true&title_color=00FFF7" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&theme=highcontrast&hide_border=true&title_color=00FFF7" height="160" />
-  </picture>
-</p>
 
 <!-- Contribution Graph -->
 <p align="center">
