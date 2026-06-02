@@ -1,20 +1,23 @@
 <!--
-  Ahmed Raza — GitHub Profile README (Animated + Dual Theme)
-  Theme: Dark/Light aware • Accent: Neon Cyan #00FFF7
-  Fonts: Orbitron (titles), Inter/Sans-serif (body)
+  Ahmed Raza — GitHub Profile README
+  Theme: Premium dark tech • Accent: Copper-Orange #E97A2C on Black #0A0A0A
+  Identity: Islamic Scholar × AI Solutions Expert
+  Fonts: Orbitron (titles)
 -->
 
 <!-- SEO keywords -->
-<!-- AI Developer, Next.js, Tailwind CSS, Agentic AI, Web 3.0, Pakistan Developer, Cybrum Solutions, React, TypeScript, Python -->
+<!-- Ahmed Raza, Ahmed Raza AI, Ahmed Raza AI Solutions Expert, Islamic Scholar AI, Agentic AI, Multi-agent Systems, Next.js, Python, FastAPI, Cybrum Solutions, Team Lead Translation, Dawat-e-Islami, Pakistan AI Developer -->
 
-<!-- 🧠 Top Animated Header -->
+<p align="center"><sub>﷽</sub></p>
+
+<!-- 🔶 Top Animated Header -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=00FFF7&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Founder+%26+CEO+of+Cybrum+Solutions;AI+%26+Python+Enthusiast;Next.js+%2B+Agentic+AI+Developer;Empowering+Businesses+with+AI" />
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Combining+Islam+with+cutting-edge+AI" />
     <source media="(prefers-color-scheme: light)"
-      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=0A2540&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Founder+%26+CEO+of+Cybrum+Solutions;AI+%26+Python+Enthusiast;Next.js+%2B+Agentic+AI+Developer;Empowering+Businesses+with+AI" />
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=00FFF7&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Founder+%26+CEO+of+Cybrum+Solutions;AI+%26+Python+Enthusiast;Next.js+%2B+Agentic+AI+Developer;Empowering+Businesses+with+AI" alt="Typing Header" />
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=B25515&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Combining+Islam+with+cutting-edge+AI" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Combining+Islam+with+cutting-edge+AI" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
   </picture>
 </p>
 
@@ -24,103 +27,129 @@
        alt="Ahmed Raza"
        width="150"
        height="150"
-       style="border-radius: 50%; border: 2px solid #00FFF7; box-shadow: 0 0 20px rgba(0, 255, 247, 0.6);"/>
+       style="border-radius: 50%; border: 2px solid #E97A2C; box-shadow: 0 0 22px rgba(233, 122, 44, 0.6);"/>
 </p>
 
+<p align="center">
+  <em>Bridging authentic Islamic knowledge with cutting-edge AI technology.</em>
+</p>
 
 <!-- Divider -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FFF7,100:0030A1&height=2&section=header" alt="divider"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:E97A2C,100:0A0A0A&height=2&section=header" alt="divider"/>
 </p>
 
-<!-- Compact Social Links -->
+<!-- Social Links -->
 <p align="center">
+  <a href="https://www.irazaahmed.me" title="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-irazaahmed.me-E97A2C?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1A1A1A" />
+  </a>
   <a href="https://linkedin.com/in/irazaahmed" title="LinkedIn">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45" />
+    <img src="https://img.shields.io/badge/LinkedIn-irazaahmed-E97A2C?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1A1A" />
   </a>
   <a href="mailto:hafizahmedraza12345@gmail.com" title="Email">
-    <img src="https://skillicons.dev/icons?i=gmail" height="45" />
+    <img src="https://img.shields.io/badge/Email-Contact-E97A2C?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A1A1A" />
   </a>
   <a href="https://wa.me/923130221118" title="WhatsApp">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" height="45" />
-  </a>
-  <a href="https://github.com/irazaahmed" title="GitHub">
-    <img src="https://skillicons.dev/icons?i=github" height="45" />
+    <img src="https://img.shields.io/badge/WhatsApp-Chat-E97A2C?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=1A1A1A" />
   </a>
   <a href="https://www.linkedin.com/company/cybrumsolutions" title="Cybrum Solutions">
-    <img src="https://skillicons.dev/icons?i=vercel" height="45" />
+    <img src="https://img.shields.io/badge/Cybrum-Solutions-E97A2C?style=for-the-badge&logo=rocket&logoColor=white&labelColor=1A1A1A" />
   </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=irazaahmed&color=E97A2C&style=for-the-badge&label=Profile+Views" alt="Profile views" />
+</p>
 
 ---
 
 ## ⚡ About Me
-> 💫 *Engineering the future with AI and creativity.*
 
-- 🧠 **Founder & CEO:** [Cybrum Solutions](https://www.linkedin.com/company/cybrumsolutions)
-- 🎓 **Senior IT Student:** GIAIC
-- 💻 **Learning:** Next.js • Tailwind CSS • Agentic AI
-- 🧩 **Tech Stack:** HTML • CSS • JavaScript • TypeScript • React • Next.js • Python
-- 🌌 **Focus:** Web 3.0 • Generative AI • Metaverse
-- 🎯 **Mission:** Empower small businesses through AI-driven solutions  
-- 📚 **Belief:** *Knowledge grows when shared.*
+> *An active Islamic Scholar simultaneously learning and applying modern technology — combining Islam with tech to make authentic Islamic knowledge accessible, easy, and engaging for everyone.*
 
+- 🕌 **Islamic Scholar** — Hafiz-e-Quran, 8+ years as an **Asst. Shariah Advisor** (معاون شرعی مشیر)
+- 🌐 **Team Lead Translation** at **Dawat-e-Islami's** Translation Department (شعبہ تراجم) — leading a **33-language** Quranic content pipeline
+- 🚀 **Founder & AI Solutions Expert** at [**Cybrum Solutions**](https://www.linkedin.com/company/cybrumsolutions) — AI automation for businesses across Pakistan
+- 🤖 **Focus:** Agentic AI • Multi-agent Systems • LLM Integration • RAG • Full-Stack Development
+- 🎓 **Certified:** Cloud Computing & Agentic AI (GIAIC) • Generative AI & Chatbots (SMIT)
+- 🎯 **Mission:** Make Islam + AI work together — authentic knowledge, modern delivery
 
 ---
 
 ## 🧠 Tech Stack
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,tailwind,python,nodejs,git,github,vercel,figma,vscode" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,ts,js,react,next,tailwind,nodejs,html,css,git,github,vercel,vscode" alt="Tech stack"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangGraph-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/CrewAI-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/n8n-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/Claude_API-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/RAG-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/Supabase-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/Sanity_CMS-E97A2C?style=flat-square&labelColor=1A1A1A" />
 </p>
 
 ---
 
 ## 🔥 GitHub Analytics
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&theme=highcontrast&hide_border=true&fire=00FFF7&ring=00FFF7&currStreakLabel=00FFF7" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&theme=default&hide_border=true" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&theme=highcontrast&hide_border=true&fire=00FFF7&ring=00FFF7&currStreakLabel=00FFF7" height="160" />
-  </picture>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&hide_border=true&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&bg_color=0A0A0A&ring_color=E97A2C" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&hide_border=true&title_color=E97A2C&text_color=A0A0A0&bg_color=0A0A0A" />
 </p>
 
-
-<!-- Contribution Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irazaahmed&theme=react-dark&area=true&hide_border=true&color=00FFF7&line=00FFF7" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&hide_border=true&background=0A0A0A&stroke=E97A2C&ring=E97A2C&fire=FFB347&currStreakLabel=E97A2C&sideNums=FFFFFF&sideLabels=A0A0A0&dates=A0A0A0&currStreakNum=FFFFFF" height="160" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irazaahmed&bg_color=0A0A0A&color=E97A2C&line=E97A2C&point=FFB347&area=true&hide_border=true" />
 </p>
 
 ---
 
-## ⚙️ Current Focus
-- 🏢 Leading **Cybrum Solutions** — AI-powered SMB growth  
-- 🚀 Building **Next.js + AI** apps  
-- 🧠 Exploring **Agentic AI systems**  
-- 🧩 Designing **E-commerce automations**  
-- 🌐 Experimenting with **Web 3.0 & Blockchain**  
-- 🎨 Blending **design + logic** using Tailwind & Framer Motion
+## ⚙️ What I'm Building
+
+- 🕌 **Quran Translation Management System** — a full-stack Next.js + Supabase platform driving a 33-language Quranic translation workflow
+- 🤖 **Agentic AI systems** — multi-agent workflows with LangGraph, CrewAI & n8n
+- 💬 **WhatsApp chatbots & CRM automation** for SMEs and Islamic publishers via Cybrum Solutions
+- 🧩 **LLM + RAG integrations** that put authentic knowledge behind a modern interface
+- 📝 Writing about **Islam + AI** on my [portfolio blog](https://www.irazaahmed.me/blog)
 
 ---
 
 ## 🧬 Philosophy
-> *“Innovation starts where comfort ends.”*  
-> *“The best code isn’t just functional — it tells a story.”*
+
+> **Execution Over Words.**
+>
+> *"Knowledge becomes powerful when it's made accessible."*
 
 ---
+
+<!-- Portfolio CTA -->
+<p align="center">
+  <a href="https://www.irazaahmed.me">
+    <img src="https://img.shields.io/badge/Explore_my_full_portfolio_→-irazaahmed.me-E97A2C?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0A0A0A" alt="Visit irazaahmed.me" />
+  </a>
+</p>
 
 <!-- Animated Footer -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=00FFF7&center=true&vCenter=true&width=800&lines=Code+Create+Innovate+Repeat;AI+is+not+the+future+-+it's+the+present;Let's+build+something+incredible+together" />
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=E97A2C&center=true&vCenter=true&width=800&lines=Combining+Islam+with+cutting-edge+AI;Build.+Automate.+Empower.;Let's+create+something+meaningful+together" />
     <source media="(prefers-color-scheme: light)"
-      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=0A2540&center=true&vCenter=true&width=800&lines=Code+Create+Innovate+Repeat;AI+is+not+the+future+-+it's+the+present;Let's+build+something+incredible+together" />
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=00FFF7&center=true&vCenter=true&width=800&lines=Code+Create+Innovate+Repeat;AI+is+not+the+future+-+it's+the+present;Let's+build+something+incredible+together" />
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=B25515&center=true&vCenter=true&width=800&lines=Combining+Islam+with+cutting-edge+AI;Build.+Automate.+Empower.;Let's+create+something+meaningful+together" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=E97A2C&center=true&vCenter=true&width=800&lines=Combining+Islam+with+cutting-edge+AI;Build.+Automate.+Empower.;Let's+create+something+meaningful+together" />
   </picture>
 </p>
 
-<!-- Neon Footer Wave -->
+<!-- Copper Footer Wave -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00FFF7,100:001220&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:E97A2C,100:0A0A0A&section=footer" />
 </p>
