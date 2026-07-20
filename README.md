@@ -3,21 +3,27 @@
   Theme: Premium dark tech • Accent: Copper-Orange #E97A2C on Black #0A0A0A
   Identity: Islamic Scholar × AI Solutions Expert
   Fonts: Orbitron (titles)
+  Auto-generated assets: profile-3d-contrib/ (3D graph) + output branch (snake) via GitHub Actions
 -->
 
 <!-- SEO keywords -->
 <!-- Ahmed Raza, Ahmed Raza AI, Ahmed Raza AI Solutions Expert, Islamic Scholar AI, Agentic AI, Multi-agent Systems, Next.js, Python, FastAPI, Cybrum Solutions, Team Lead Translation, Dawat-e-Islami, Pakistan AI Developer -->
 
+<!-- 🔶 Animated Copper Wave Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0A0A0A,50:E97A2C,100:0A0A0A&text=Ahmed%20Raza&fontColor=FFFFFF&fontSize=52&fontAlignY=35&desc=Islamic%20Scholar%20%C3%97%20AI%20Solutions%20Expert&descAlignY=55&descSize=18&animation=fadeIn" alt="Ahmed Raza header" />
+</p>
+
 <p align="center"><sub>﷽</sub></p>
 
-<!-- 🔶 Top Animated Header -->
+<!-- 🔶 Animated Typing Roles -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Combining+Islam+with+cutting-edge+AI" />
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Agentic+AI+%E2%80%A2+Multi-agent+Systems+%E2%80%A2+RAG;Combining+Islam+with+cutting-edge+AI" />
     <source media="(prefers-color-scheme: light)"
-      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=B25515&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Combining+Islam+with+cutting-edge+AI" />
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Ahmed+Raza;Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Combining+Islam+with+cutting-edge+AI" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
+      srcset="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3200&pause=800&color=B25515&center=true&vCenter=true&width=1000&lines=Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Agentic+AI+%E2%80%A2+Multi-agent+Systems+%E2%80%A2+RAG;Combining+Islam+with+cutting-edge+AI" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Agentic+AI+%E2%80%A2+Multi-agent+Systems+%E2%80%A2+RAG;Combining+Islam+with+cutting-edge+AI" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
   </picture>
 </p>
 
@@ -80,7 +86,10 @@
 ## 🧠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,ts,js,react,next,tailwind,nodejs,html,css,git,github,vercel,vscode" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,ts,js,react,next,tailwind,nodejs&theme=dark" alt="Tech stack row 1"/>
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,git,github,vercel,vscode,supabase,cloudflare&theme=dark" alt="Tech stack row 2"/>
 </p>
 
 <p align="center">
@@ -88,10 +97,18 @@
   <img src="https://img.shields.io/badge/CrewAI-E97A2C?style=flat-square&labelColor=1A1A1A" />
   <img src="https://img.shields.io/badge/n8n-E97A2C?style=flat-square&labelColor=1A1A1A" />
   <img src="https://img.shields.io/badge/Claude_API-E97A2C?style=flat-square&labelColor=1A1A1A" />
+  <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-E97A2C?style=flat-square&labelColor=1A1A1A" />
   <img src="https://img.shields.io/badge/RAG-E97A2C?style=flat-square&labelColor=1A1A1A" />
   <img src="https://img.shields.io/badge/Prompt_Engineering-E97A2C?style=flat-square&labelColor=1A1A1A" />
-  <img src="https://img.shields.io/badge/Supabase-E97A2C?style=flat-square&labelColor=1A1A1A" />
   <img src="https://img.shields.io/badge/Sanity_CMS-E97A2C?style=flat-square&labelColor=1A1A1A" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=irazaahmed&theme=onedark&no-bg=true&no-frame=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
 </p>
 
 ---
@@ -107,8 +124,53 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=irazaahmed&hide_border=true&background=0A0A0A&stroke=E97A2C&ring=E97A2C&fire=FFB347&currStreakLabel=E97A2C&sideNums=FFFFFF&sideLabels=A0A0A0&dates=A0A0A0&currStreakNum=FFFFFF" height="160" />
 </p>
 
+---
+
+## 🧊 3D Contribution Graph
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irazaahmed&bg_color=0A0A0A&color=E97A2C&line=E97A2C&point=FFB347&area=true&hide_border=true" />
+  <img src="./profile-3d-contrib/profile-copper.svg" alt="3D contribution graph" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/irazaahmed/irazaahmed/output/snake-copper.svg" alt="Contribution snake animation" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=irazaahmed&bg_color=0A0A0A&color=E97A2C&line=E97A2C&point=FFB347&area=true&hide_border=true" alt="Contribution activity graph" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/irazaahmed/translation-management-system">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=translation-management-system&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+  </a>
+  <a href="https://github.com/irazaahmed/linkedin-autonomous-agent">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=linkedin-autonomous-agent&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/irazaahmed/cybrumsolutions">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=cybrumsolutions&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+  </a>
+  <a href="https://github.com/irazaahmed/iraza-portfolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=iraza-portfolio&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/irazaahmed/physical-ai-humanoid-robotics">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=physical-ai-humanoid-robotics&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+  </a>
+  <a href="https://github.com/irazaahmed/saylami-impact-portal">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=saylami-impact-portal&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+  </a>
 </p>
 
 
@@ -129,6 +191,10 @@
 > **Execution Over Words.**
 >
 > *"Knowledge becomes powerful when it's made accessible."*
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=false" alt="Random dev quote" />
+</p>
 
 ---
 

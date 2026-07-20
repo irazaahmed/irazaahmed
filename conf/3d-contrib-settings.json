@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-copper.svg",
+  "backgroundColor": "#0A0A0A",
+  "foregroundColor": "#A0A0A0",
+  "strongColor": "#E97A2C",
+  "weakColor": "#2A2A2A",
+  "radarColor": "#E97A2C",
+  "growingAnimation": true,
+  "contribColors": ["#1C1C1C", "#4A2610", "#8A4518", "#D06A24", "#FFB347"]
+}
