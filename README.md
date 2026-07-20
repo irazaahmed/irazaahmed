@@ -108,12 +108,12 @@
 ## 🔥 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=irazaahmed&theme=gruvbox" width="800" alt="Profile details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=irazaahmed&theme=gruvbox&v=2" width="800" alt="Profile details" />
 </p>
 
 <p align="center">
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=irazaahmed&theme=gruvbox" alt="Repos per language" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=irazaahmed&theme=gruvbox" alt="Most commit language" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=irazaahmed&theme=gruvbox&v=2" alt="Most commit language" />
 </p>
 
 <p align="center">
