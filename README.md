@@ -146,26 +146,26 @@
 
 <p align="center">
   <a href="https://github.com/irazaahmed/translation-management-system">
-    <img width="400" src="https://socialify.git.ci/irazaahmed/translation-management-system/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="translation-management-system" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/translation-management-system/image?custom_description=33-language%20Quranic%20translation%20platform%20built%20with%20Next.js%20and%20Supabase&description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="translation-management-system" />
   </a>
   <a href="https://github.com/irazaahmed/linkedin-autonomous-agent">
-    <img width="400" src="https://socialify.git.ci/irazaahmed/linkedin-autonomous-agent/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="linkedin-autonomous-agent" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/linkedin-autonomous-agent/image?custom_description=Autonomous%20AI%20agent%20that%20plans%20and%20posts%20LinkedIn%20content%20-%20Python%20and%20LLMs&description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="linkedin-autonomous-agent" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/irazaahmed/cybrumsolutions">
-    <img width="400" src="https://socialify.git.ci/irazaahmed/cybrumsolutions/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="cybrumsolutions" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/cybrumsolutions/image?custom_description=Official%20website%20of%20Cybrum%20Solutions%20-%20AI%20automation%20for%20businesses&description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="cybrumsolutions" />
   </a>
   <a href="https://github.com/irazaahmed/iraza-portfolio">
-    <img width="400" src="https://socialify.git.ci/irazaahmed/iraza-portfolio/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="iraza-portfolio" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/iraza-portfolio/image?custom_description=My%20portfolio%20and%20blog%20-%20Islam%20meets%20cutting-edge%20AI%20-%20irazaahmed.me&description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="iraza-portfolio" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/irazaahmed/physical-ai-humanoid-robotics">
-    <img width="400" src="https://socialify.git.ci/irazaahmed/physical-ai-humanoid-robotics/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="physical-ai-humanoid-robotics" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/physical-ai-humanoid-robotics/image?custom_description=Learning%20lab%20for%20Physical%20AI%20and%20humanoid%20robotics%20in%20Python&description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="physical-ai-humanoid-robotics" />
   </a>
   <a href="https://github.com/irazaahmed/saylami-impact-portal">
-    <img width="400" src="https://socialify.git.ci/irazaahmed/saylami-impact-portal/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="saylami-impact-portal" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/saylami-impact-portal/image?custom_description=Impact%20and%20donations%20portal%20for%20community%20welfare%20programs&description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="saylami-impact-portal" />
   </a>
 </p>
 
