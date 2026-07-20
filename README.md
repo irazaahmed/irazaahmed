@@ -105,19 +105,15 @@
 
 ---
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=irazaahmed&theme=onedark&no-bg=true&no-frame=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
-</p>
-
----
-
 ## 🔥 GitHub Analytics
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=irazaahmed&show_icons=true&hide_border=true&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&bg_color=0A0A0A&ring_color=E97A2C" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=irazaahmed&layout=compact&hide_border=true&title_color=E97A2C&text_color=A0A0A0&bg_color=0A0A0A" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=irazaahmed&theme=gruvbox" width="800" alt="Profile details" />
+</p>
+
+<p align="center">
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=irazaahmed&theme=gruvbox" alt="Repos per language" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=irazaahmed&theme=gruvbox" alt="Most commit language" />
 </p>
 
 <p align="center">
@@ -150,26 +146,26 @@
 
 <p align="center">
   <a href="https://github.com/irazaahmed/translation-management-system">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=translation-management-system&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/translation-management-system/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="translation-management-system" />
   </a>
   <a href="https://github.com/irazaahmed/linkedin-autonomous-agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=linkedin-autonomous-agent&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/linkedin-autonomous-agent/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="linkedin-autonomous-agent" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/irazaahmed/cybrumsolutions">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=cybrumsolutions&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/cybrumsolutions/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="cybrumsolutions" />
   </a>
   <a href="https://github.com/irazaahmed/iraza-portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=iraza-portfolio&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/iraza-portfolio/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="iraza-portfolio" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/irazaahmed/physical-ai-humanoid-robotics">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=physical-ai-humanoid-robotics&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/physical-ai-humanoid-robotics/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="physical-ai-humanoid-robotics" />
   </a>
   <a href="https://github.com/irazaahmed/saylami-impact-portal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=irazaahmed&repo=saylami-impact-portal&bg_color=0A0A0A&title_color=E97A2C&icon_color=E97A2C&text_color=A0A0A0&hide_border=true" />
+    <img width="400" src="https://socialify.git.ci/irazaahmed/saylami-impact-portal/image?description=1&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="saylami-impact-portal" />
   </a>
 </p>
 
