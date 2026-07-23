@@ -3,7 +3,7 @@
   Theme: Premium dark tech • Accent: Copper-Orange #E97A2C on Black #0A0A0A
   Identity: Islamic Scholar × AI Solutions Expert
   Fonts: Orbitron (titles)
-  Auto-generated assets: profile-3d-contrib/ (3D graph) + output branch (snake) via GitHub Actions
+  Auto-generated assets: profile-3d-contrib/ (3D graph) + output branch (snake) + github-metrics.svg (analytics) via GitHub Actions
 -->
 
 <!-- SEO keywords -->
@@ -108,12 +108,7 @@
 ## 🔥 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=irazaahmed&theme=gruvbox&v=2" width="800" alt="Profile details" />
-</p>
-
-<p align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=irazaahmed&theme=gruvbox" alt="Repos per language" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=irazaahmed&theme=gruvbox&v=2" alt="Most commit language" />
+  <img src="./github-metrics.svg" alt="GitHub metrics" />
 </p>
 
 <p align="center">
