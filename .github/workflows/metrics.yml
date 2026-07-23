@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 19 * * *" # daily at 00:00 PKT
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/metrics.yml
 
 permissions:
   contents: write
