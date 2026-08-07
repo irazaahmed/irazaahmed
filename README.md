@@ -18,7 +18,7 @@
 
 <!-- 🔶 Animated Typing Roles -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Agentic+AI+%E2%80%A2+Multi-agent+Systems+%E2%80%A2+RAG;Combining+Islam+with+cutting-edge+AI" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
+  <img src="https://readme-typing-svg.demolab.com?size=28&duration=3200&pause=800&color=E97A2C&center=true&vCenter=true&width=1000&lines=Islamic+Scholar+%C3%97+AI+Solutions+Expert;Team+Lead+Translation+%40+Dawat-e-Islami;Founder+of+Cybrum+Solutions;Agentic+AI+%E2%80%A2+Multi-agent+Systems+%E2%80%A2+RAG;Combining+Islam+with+cutting-edge+AI" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
 </p>
 
 <!-- Profile Image -->
@@ -192,7 +192,7 @@
 
 <!-- Animated Footer -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=22&duration=4000&pause=1200&color=E97A2C&center=true&vCenter=true&width=800&lines=Combining+Islam+with+cutting-edge+AI;Build.+Automate.+Empower.;Let's+create+something+meaningful+together" alt="Combining Islam with cutting-edge AI" />
+  <img src="https://readme-typing-svg.demolab.com?size=22&duration=4000&pause=1200&color=E97A2C&center=true&vCenter=true&width=800&lines=Combining+Islam+with+cutting-edge+AI;Build.+Automate.+Empower.;Let's+create+something+meaningful+together" alt="Combining Islam with cutting-edge AI" />
 </p>
 
 <!-- Copper Footer Wave -->
