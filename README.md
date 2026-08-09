@@ -16,11 +16,9 @@
 
 <p align="center"><sub>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</sub></p>
 
-<!-- 🔶 Roles -->
+<!-- 🔶 Animated Roles (self-hosted CSS-animated SVG — survives GitHub's camo CSP) -->
 <p align="center">
-  <strong style="font-size:20px; color:#E97A2C;">Islamic Scholar × AI Solutions Expert</strong>
-  <br/>
-  <sub>Team Lead Translation @ Dawat-e-Islami • Founder of Cybrum Solutions • Agentic AI • Multi-agent Systems • RAG</sub>
+  <img src="./assets/tagline-hero.svg" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
 </p>
 
 <!-- Profile Image -->
@@ -192,11 +190,9 @@
   </a>
 </p>
 
-<!-- Footer tagline -->
+<!-- Animated Footer tagline (self-hosted CSS-animated SVG) -->
 <p align="center">
-  <strong style="font-size:16px; color:#E97A2C;">Combining Islam with cutting-edge AI</strong>
-  <br/>
-  <sub>Build. Automate. Empower. — Let's create something meaningful together.</sub>
+  <img src="./assets/tagline-footer.svg" alt="Combining Islam with cutting-edge AI" />
 </p>
 
 <!-- Copper Footer Wave -->

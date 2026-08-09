@@ -1,0 +1,35 @@
+<svg width="1000" height="80" viewBox="0 0 1000 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E97A2C" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFE3BE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#E97A2C" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="textClip">
+      <text x="500" y="38" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-weight="bold" font-size="26">Islamic Scholar &#215; AI Solutions Expert</text>
+    </clipPath>
+    <style>
+      .base { fill: #E97A2C; font-family: Verdana, Geneva, sans-serif; font-weight: bold; }
+      .sub { fill: #A0A0A0; font-family: Verdana, Geneva, sans-serif; }
+      .shimmer-rect { animation: sweep 3.2s linear infinite; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes sweep {
+        0%   { transform: translateX(-260px); }
+        100% { transform: translateX(1000px); }
+      }
+      @keyframes blink {
+        0%, 49%   { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <text x="500" y="38" text-anchor="middle" class="base" font-size="26">Islamic Scholar &#215; AI Solutions Expert</text>
+  <g clip-path="url(#textClip)">
+    <rect class="shimmer-rect" x="0" y="0" width="260" height="80" fill="url(#shimmer)"/>
+  </g>
+
+  <text x="500" y="62" text-anchor="middle" class="sub" font-size="12.5">Team Lead Translation @ Dawat-e-Islami &#8226; Founder of Cybrum Solutions &#8226; Agentic AI &#8226; Multi-agent Systems &#8226; RAG</text>
+
+  <rect class="cursor" x="905" y="26" width="2" height="20" fill="#E97A2C"/>
+</svg>
