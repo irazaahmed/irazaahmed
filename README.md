@@ -16,9 +16,9 @@
 
 <p align="center"><sub>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</sub></p>
 
-<!-- 🔶 Animated Roles (self-hosted CSS-animated SVG — survives GitHub's camo CSP) -->
+<!-- 🔶 Animated Roles (self-hosted GIF — SVG CSS/SMIL animation is frozen by GitHub's sandboxed CSP, GIF frame animation is not) -->
 <p align="center">
-  <img src="./assets/tagline-hero.svg" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
+  <img src="./assets/tagline-hero.gif" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
 </p>
 
 <!-- Profile Image -->
@@ -190,9 +190,9 @@
   </a>
 </p>
 
-<!-- Animated Footer tagline (self-hosted CSS-animated SVG) -->
+<!-- Animated Footer tagline (self-hosted GIF) -->
 <p align="center">
-  <img src="./assets/tagline-footer.svg" alt="Combining Islam with cutting-edge AI" />
+  <img src="./assets/tagline-footer.gif" alt="Combining Islam with cutting-edge AI" />
 </p>
 
 <!-- Copper Footer Wave -->
