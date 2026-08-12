@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 19 * * *" # daily at 00:00 PKT
+    - cron: "30 19 * * *" # daily at 00:30 PKT
   workflow_dispatch:
   push:
     branches: [main]

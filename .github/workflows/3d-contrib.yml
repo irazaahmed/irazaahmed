@@ -2,7 +2,7 @@ name: GitHub Profile 3D Contrib
 
 on:
   schedule:
-    - cron: "0 19 * * *" # daily at 00:00 PKT
+    - cron: "15 19 * * *" # daily at 00:15 PKT
   workflow_dispatch:
 
 permissions:
