@@ -106,7 +106,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=irazaahmed&hide_border=true&disable_animations=true&background=0A0A0A&stroke=E97A2C&ring=E97A2C&fire=FFB347&currStreakLabel=E97A2C&sideNums=FFFFFF&sideLabels=A0A0A0&dates=A0A0A0&currStreakNum=FFFFFF" height="160" />
+  <img src="./streak-stats.svg" alt="GitHub streak stats" height="160" />
 </p>
 
 ---
