@@ -1,23 +1,36 @@
 #!/usr/bin/env python3
-"""Generate streak-stats.svg directly from GitHub's GraphQL API.
+"""Generate streak-stats.svg from GitHub's own public contributions calendar.
 
 Replaces the previous approach of fetching a pre-rendered SVG from the
 shared public streak-stats.demolab.com instance, which is rate-limited /
 occasionally returns a "Failed to retrieve contributions" error body (still
 HTTP 200, so a plain curl retry never catches it) and stalls the daily
 auto-update. Computing the numbers ourselves removes that third-party
-single point of failure entirely - the only dependency left is GitHub's
-own API.
+single point of failure.
+
+Data source: https://github.com/users/<login>/contributions - the same
+HTML fragment GitHub's own profile page uses to render the contribution
+graph. It is public and requires no authentication or token, so there is
+no scope/rate-limit risk from a PAT or GITHUB_TOKEN either.
 """
 import json
 import os
-import sys
+import re
 import urllib.error
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 USERNAME = "irazaahmed"
-API_URL = "https://api.github.com/graphql"
+CONTRIB_URL = "https://github.com/users/{login}/contributions"
+USER_API_URL = "https://api.github.com/users/{login}"
+
+DAY_CELL_RE = re.compile(
+    r'data-date="(\d{4}-\d{2}-\d{2})"[^>]*id="(contribution-day-component-\d+-\d+)"'
+)
+TOOLTIP_RE = re.compile(
+    r'for="(contribution-day-component-\d+-\d+)"[^>]*>\s*'
+    r'(?:No contributions|(\d+) contributions?) on'
+)
 
 STYLE = {
     "background": "#0a0a0a",
@@ -31,72 +44,58 @@ STYLE = {
 }
 
 
-def gh_request(query, variables, token):
-    body = json.dumps({"query": query, "variables": variables}).encode()
+def http_get(url):
     req = urllib.request.Request(
-        API_URL,
-        data=body,
+        url,
         headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-            "User-Agent": "streak-stats-generator",
+            "User-Agent": "Mozilla/5.0 (compatible; streak-stats-generator/1.0)",
         },
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
-            payload = json.load(resp)
+            return resp.read().decode("utf-8")
     except urllib.error.HTTPError as e:
-        raise RuntimeError(f"GitHub API HTTP {e.code}: {e.read().decode(errors='replace')}") from e
-    if "errors" in payload:
-        raise RuntimeError(f"GraphQL error: {payload['errors']}")
-    return payload["data"]
+        raise RuntimeError(f"GET {url} -> HTTP {e.code}: {e.read().decode(errors='replace')}") from e
 
 
-USER_QUERY = """
-query($login: String!) {
-  user(login: $login) { createdAt }
-}
-"""
-
-CALENDAR_QUERY = """
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      contributionCalendar {
-        weeks { contributionDays { date contributionCount } }
-      }
-    }
-  }
-}
-"""
+def fetch_account_created(login):
+    payload = json.loads(http_get(USER_API_URL.format(login=login)))
+    return datetime.fromisoformat(payload["created_at"].replace("Z", "+00:00"))
 
 
-def fetch_daily_counts(token):
-    data = gh_request(USER_QUERY, {"login": USERNAME}, token)
-    created_at = datetime.fromisoformat(
-        data["user"]["createdAt"].replace("Z", "+00:00")
-    )
+def parse_contribution_page(html):
+    ids_to_date = {cell_id: date_str for date_str, cell_id in DAY_CELL_RE.findall(html)}
+    ids_to_count = {}
+    for m in TOOLTIP_RE.finditer(html):
+        cell_id, count = m.group(1), m.group(2)
+        ids_to_count[cell_id] = int(count) if count is not None else 0
 
     counts = {}
-    window_start = created_at
+    for cell_id, date_str in ids_to_date.items():
+        if cell_id in ids_to_count:
+            counts[date.fromisoformat(date_str)] = ids_to_count[cell_id]
+    return counts
+
+
+def fetch_daily_counts():
+    created_at = fetch_account_created(USERNAME)
+    created_date = created_at.date()
     now = datetime.now(timezone.utc)
-    while window_start < now:
-        window_end = min(window_start + timedelta(days=365), now)
-        data = gh_request(
-            CALENDAR_QUERY,
-            {
-                "login": USERNAME,
-                "from": window_start.isoformat(),
-                "to": window_end.isoformat(),
-            },
-            token,
-        )
-        weeks = data["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-        for week in weeks:
-            for day in week["contributionDays"]:
-                d = date.fromisoformat(day["date"])
-                counts[d] = day["contributionCount"]
-        window_start = window_end
+
+    counts = {}
+    for year in range(created_at.year, now.year):
+        html = http_get(f"{CONTRIB_URL.format(login=USERNAME)}?to={year}-12-31")
+        counts.update(parse_contribution_page(html))
+
+    html = http_get(CONTRIB_URL.format(login=USERNAME))
+    counts.update(parse_contribution_page(html))
+
+    # Drop padding days the year-boundary fetches include before the account
+    # existed, so the "Total Contributions" range reflects account creation.
+    counts = {d: c for d, c in counts.items() if d >= created_date}
+
+    if not counts:
+        raise RuntimeError("No contribution days parsed from GitHub's contributions page")
     return counts
 
 
@@ -268,12 +267,7 @@ def render_svg(total, current, current_range, longest, longest_range, total_rang
 
 
 def main():
-    token = os.environ.get("GH_TOKEN")
-    if not token:
-        print("GH_TOKEN environment variable is required", file=sys.stderr)
-        sys.exit(1)
-
-    counts = fetch_daily_counts(token)
+    counts = fetch_daily_counts()
     (
         total,
         current,
