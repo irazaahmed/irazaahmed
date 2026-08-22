@@ -13,16 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch streak stats SVG
-        run: |
-          curl -sSL --retry 5 --retry-delay 15 --retry-all-errors -o streak-stats.svg.tmp \
-            "https://streak-stats.demolab.com?user=irazaahmed&hide_border=true&disable_animations=true&background=0A0A0A&stroke=E97A2C&ring=E97A2C&fire=FFB347&currStreakLabel=E97A2C&sideNums=FFFFFF&sideLabels=A0A0A0&dates=A0A0A0&currStreakNum=FFFFFF"
-          if grep -q "Total Contributions" streak-stats.svg.tmp; then
-            mv streak-stats.svg.tmp streak-stats.svg
-          else
-            echo "Fetched SVG looks invalid, keeping previous streak-stats.svg"
-            rm -f streak-stats.svg.tmp
-          fi
+      - name: Generate streak stats SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/gen_streak_stats.py
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
