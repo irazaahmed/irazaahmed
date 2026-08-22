@@ -1,24 +1,24 @@
 <!--
   Ahmed Raza — GitHub Profile README
   Theme: Premium dark tech • Accent: Copper-Orange #E97A2C on Black #0A0A0A
-  Identity: Islamic Scholar × AI Solutions Expert
+  Identity: Islamic Scholar × Agentic AI Engineer
   Fonts: Orbitron (titles)
   Auto-generated assets: profile-3d-contrib/ (3D graph) + output branch (snake) + github-metrics.svg (analytics) via GitHub Actions
 -->
 
 <!-- SEO keywords -->
-<!-- Ahmed Raza, Ahmed Raza AI, Ahmed Raza AI Solutions Expert, Islamic Scholar AI, Agentic AI, Multi-agent Systems, Next.js, Python, FastAPI, Cybrum Solutions, Team Lead Translation, Dawat-e-Islami, Pakistan AI Developer -->
+<!-- Ahmed Raza, Ahmed Raza AI, Ahmed Raza Agentic AI Engineer, Islamic Scholar AI, Agentic AI, Multi-agent Systems, Next.js, Python, FastAPI, Cybrum Solutions, Team Lead Translation, Dawat-e-Islami, Pakistan AI Developer -->
 
 <!-- 🔶 Animated Copper Wave Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0A0A0A,50:E97A2C,100:0A0A0A&text=Ahmed%20Raza&fontColor=FFFFFF&fontSize=52&fontAlignY=35&desc=Islamic%20Scholar%20%C3%97%20AI%20Solutions%20Expert&descAlignY=55&descSize=18&animation=fadeIn" alt="Ahmed Raza header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0A0A0A,50:E97A2C,100:0A0A0A&text=Ahmed%20Raza&fontColor=FFFFFF&fontSize=52&fontAlignY=35&desc=Islamic%20Scholar%20%C3%97%20Agentic%20AI%20Engineer&descAlignY=55&descSize=18&animation=fadeIn" alt="Ahmed Raza header" />
 </p>
 
 <p align="center"><sub>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</sub></p>
 
 <!-- 🔶 Animated Roles (self-hosted GIF — SVG CSS/SMIL animation is frozen by GitHub's sandboxed CSP, GIF frame animation is not) -->
 <p align="center">
-  <img src="./assets/tagline-hero.gif" alt="Ahmed Raza — Islamic Scholar and AI Solutions Expert" />
+  <img src="./assets/tagline-hero.gif" alt="Ahmed Raza — Islamic Scholar and Agentic AI Engineer" />
 </p>
 
 <!-- Profile Image -->
@@ -70,7 +70,7 @@
 
 - 🕌 **Islamic Scholar** — Hafiz-e-Quran, 8+ years as an **Asst. Shariah Advisor** (معاون شرعی مشیر)
 - 🌐 **Team Lead Translation** at **Dawat-e-Islami's** Translation Department (شعبہ تراجم) — leading a **33-language** Quranic content pipeline
-- 🚀 **Founder & AI Solutions Expert** at [**Cybrum Solutions**](https://www.linkedin.com/company/cybrumsolutions) — AI automation for businesses across Pakistan
+- 🚀 **Founder & Agentic AI Engineer** at [**Cybrum Solutions**](https://www.linkedin.com/company/cybrumsolutions) — AI automation for businesses across Pakistan
 - 🤖 **Focus:** Agentic AI • Multi-agent Systems • LLM Integration • RAG • Full-Stack Development
 - 🎓 **Certified:** Cloud Computing & Agentic AI (GIAIC) • Generative AI & Chatbots (SMIT)
 - 🎯 **Mission:** Make Islam + AI work together — authentic knowledge, modern delivery
